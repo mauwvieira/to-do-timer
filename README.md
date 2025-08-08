@@ -1,1 +1,1 @@
-<img= src="https://media.discordapp.net/attachments/570028463592046593/1403200565634269234/image.png?ex=6896afdd&is=68955e5d&hm=23de43c99f36bfd8374100b458853cfbd0f8ffac98f0555f21d60fdbfca0f464&=&format=webp&quality=lossless">
+<img src="https://media.discordapp.net/attachments/570028463592046593/1403200565634269234/image.png?ex=6896afdd&is=68955e5d&hm=23de43c99f36bfd8374100b458853cfbd0f8ffac98f0555f21d60fdbfca0f464&=&format=webp&quality=lossless">
