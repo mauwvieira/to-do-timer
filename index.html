@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2do timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dianoite">
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+    </label>
+    </div>
+    
+    <div class="container-principal">
+    <div class="to-do-container">
+        <div class="to-do-title">
+            TASKS
+        </div>
+        <div class="to-do-list" id='todoList'>
+        </div>
+
+        <div class="to-do-new-item" id="to-do-new-item">
+            <label for="newItem"> &and; </label>
+            <input type="text" id="newItem" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <label for="newItem"> &and; </label>
+        </div>
+    </div>
+
+    
+
+    <div class="pomodoro-container">
+        <h1 id="mode-info">Modo de Trabalho</h1>
+        <div id="timer">25:00</div>
+        <div class="buttons">
+            <button class="start" id="startBtn">Iniciar</button>
+            <button class="pause" id="pauseBtn">Pausar</button>
+            <button class="reset" id="resetBtn">Resetar</button>
+            <button class="toggle" id="toggleBtn">Descanso</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
